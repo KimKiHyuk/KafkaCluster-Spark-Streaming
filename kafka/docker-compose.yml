@@ -272,6 +272,9 @@ services:
      - "8888:8888"
     links: 
       - kafka1:kafka1
+    environment:
+      - GRANT_SUDO:yes
+    user: root
     depends_on:
       - zoo1
       - zoo2
