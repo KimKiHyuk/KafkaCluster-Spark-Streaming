@@ -1,4 +1,4 @@
-version: '2.1'
+version: '3'
 
 services:
   zoo1:
@@ -285,3 +285,23 @@ services:
       - kafka-schema-registry
       - kafka-rest-proxy
       - kafka-connect
+      
+  flumeAgent:
+      image: flume:latest
+      ports:
+        - "44444:44444"
+      volumes:
+        - ./fixtures/source.conf:/opt/flume-config/flume.conf
+      environment:
+        - FLUME_AGENT_NAME=flumeAgent
+      depends_on:
+        - zoo1
+        - zoo2
+        - zoo3
+        - kafka1
+        - kafka2
+        - kafka3
+        - kafka-schema-registry
+        - kafka-rest-proxy
+        - kafka-connect
+  

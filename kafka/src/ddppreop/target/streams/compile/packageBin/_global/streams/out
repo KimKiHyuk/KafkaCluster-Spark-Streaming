@@ -1,1 +1,13 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/key/repository/spark-with-kafka/kafka/src/ddppreop/target/scala-2.13/hello-world_2.13-1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/key/repository/spark-with-kafka/kafka/src/ddppreop/target/scala-2.13/hello-world_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/key/repository/spark-with-kafka/kafka/src/ddppreop/target/scala-2.13/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Producer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/key/repository/spark-with-kafka/kafka/src/ddppreop/target/scala-2.13/classes/Producer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/key/repository/spark-with-kafka/kafka/src/ddppreop/target/scala-2.13/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/key/repository/spark-with-kafka/kafka/src/ddppreop/target/scala-2.13/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Producer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/key/repository/spark-with-kafka/kafka/src/ddppreop/target/scala-2.13/classes/Producer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
